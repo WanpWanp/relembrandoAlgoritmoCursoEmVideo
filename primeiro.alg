@@ -1,15 +1,19 @@
 Algoritmo "primeiro"
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+/// Disciplina  :[Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : [Nome do Professor]
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 4/27/2023
-Var
-// Seção de Declarações das variáveis 
+// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+var
+    msg: caractere
+    numInt: inteiro
+    numFra: real
+    falVer: logico
 
+inicio
+    msg <- "Ola Mundo!!!"
 
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-
-
-Fimalgoritmo
+    EScrevaL (msg)
+    EscrevaL ("OlÃ¡, Mundo!!!")
+    Escreva ("me livrei da maldiÃ§Ã£o")
+fimalgoritmo
