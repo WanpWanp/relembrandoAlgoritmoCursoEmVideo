@@ -17,7 +17,7 @@ Inicio
 
     s <- sen(grauprad(angulo))
 
-    EscrevaL ("Seno de ", angulo, " é: " s)
+    EscrevaL ("Seno de ", angulo, " é: ", s)
 
 
 Fimalgoritmo

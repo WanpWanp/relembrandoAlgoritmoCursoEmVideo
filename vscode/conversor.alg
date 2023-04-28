@@ -16,5 +16,4 @@ inicio
 
     EscrevaL ("Seno de ", angulo, " é: ", s)
 
-
 fimalgoritmo
