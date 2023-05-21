@@ -25,6 +25,6 @@ inicio
         EscrevaL ("O triangulo é EQUILATERO? ", EQ)
         EscrevaL ("O triangulo é ESCALENO? ",ES)
         EscrevaL ("O triangulo é ISÓCELES? ",IS)
-    Fimse
+    FimSe
 
 fimalgoritmo
