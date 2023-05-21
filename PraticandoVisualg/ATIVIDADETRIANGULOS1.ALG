@@ -1,20 +1,20 @@
 algoritmo "Triangulos"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+// Disciplina  :  [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
+// Autor(a)    : Willian Axl N. Pacheco
+// Data atual  : 21/05/2023
 var
     l1, l2, l3: Real
     EQ, ES, IS, tri: Logico
 
 inicio
 
-    EscrevaL ("Digite o 1° lado do triangulo")
+    EscrevaL ("Digite o 1ï¿½ lado do triangulo")
     Leia (l1)
-    EscrevaL ("Digite o 2° lado do triangulo")
+    EscrevaL ("Digite o 2ï¿½ lado do triangulo")
     Leia (l2)
-    EscrevaL ("Digite o 3° lado do triangulo")
+    EscrevaL ("Digite o 3ï¿½ lado do triangulo")
     Leia (l3)
     tri <- (l1 < (l2 + l3)) e (l2 < (l3 + l1)) e (l3 < (l1 + l2))
     EscrevaL ("Esses dados podem formar um triangulo? ", tri)
@@ -23,9 +23,9 @@ inicio
     IS <- (l1 = l2) ou (L2 = l3) ou (l1 = l3)
 
     Se (tri = verdadeiro) entao
-        EscrevaL ("O triangulo é EQUILATERO? ", EQ)
-        EscrevaL ("O triangulo é ESCALENO? ",ES)
-        EscrevaL ("O triangulo é ISÓCELES? ",IS)
+        EscrevaL ("O triangulo ï¿½ EQUILATERO? ", EQ)
+        EscrevaL ("O triangulo ï¿½ ESCALENO? ",ES)
+        EscrevaL ("O triangulo ï¿½ ISï¿½CELES? ",IS)
     Fimse
 
 fimalgoritmo

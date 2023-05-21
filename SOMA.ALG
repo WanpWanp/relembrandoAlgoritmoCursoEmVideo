@@ -1,19 +1,19 @@
 Algoritmo "Soma"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 4/27/2023
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
+// Autor(a)    : Willian Axl N. Pacheco
+// Data atual  : 21/05/2023
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    num1, num2, soma, sub, multi, diviInteira, modu: inteiro
    divi,expo: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL ("Digite um número:")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL ("Digite um nï¿½mero:")
    Leia (num1)
-   EscrevaL ("Digite outro número:")
+   EscrevaL ("Digite outro nï¿½mero:")
    Leia (num2)
 
     soma <- num1 + num2
@@ -23,13 +23,13 @@ Inicio
     diviInteira <- num1 \ num2
     expo <- num1 ^ num2
     modu <- num1 % num2
-    EscrevaL ("A soma de ", num1, " e ", num2, " é: ", soma) // num1 + num2 =>
-    EscrevaL ("A subtração de ", num1, " e ", num2, " é: ", sub) // num1 - num2 =>
-    EscrevaL ("A multiplicação de ", num1, " e ", num2, " é: ", multi) // num1 * num2 =>
-    EscrevaL ("A divisão de ", num1, " e ", num2, " é: ", divi) // num1 / num2 =>
-    EscrevaL ("A divisão inteira de ", num1, " e ", num2, " é: ", diviInteira) // num1 \ num2 =>
-    EscrevaL ("A exponenciação de ", num1, " e ", num2, " é: ", expo) // num1 ^ num2 =>
-    EscrevaL ("O módulo de ", num1, " e ", num2, " é: ", modu) // num1 % num2 =>
+    EscrevaL ("A soma de ", num1, " e ", num2, " ï¿½: ", soma) // num1 + num2 =>
+    EscrevaL ("A subtraï¿½ï¿½o de ", num1, " e ", num2, " ï¿½: ", sub) // num1 - num2 =>
+    EscrevaL ("A multiplicaï¿½ï¿½o de ", num1, " e ", num2, " ï¿½: ", multi) // num1 * num2 =>
+    EscrevaL ("A divisï¿½o de ", num1, " e ", num2, " ï¿½: ", divi) // num1 / num2 =>
+    EscrevaL ("A divisï¿½o inteira de ", num1, " e ", num2, " ï¿½: ", diviInteira) // num1 \ num2 =>
+    EscrevaL ("A exponenciaï¿½ï¿½o de ", num1, " e ", num2, " ï¿½: ", expo) // num1 ^ num2 =>
+    EscrevaL ("O mï¿½dulo de ", num1, " e ", num2, " ï¿½: ", modu) // num1 % num2 =>
 
 
 Fimalgoritmo

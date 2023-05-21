@@ -1,21 +1,21 @@
 Algoritmo "Creuza Idade"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 5/21/2023
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
+// Autor(a)    : Willian Axl N. Pacheco
+// Data atual  : 21/05/2023
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    Ano_Atual, Ano_Nasci, idade: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
-    Escreva ("Em que ano nós estamos? ")
+    Escreva ("Em que ano nï¿½s estamos? ")
     Leia (Ano_Atual)
     Escreva ("Em que ano eu nasci? ")
     Leia (Ano_Nasci)
     idade <- Ano_Atual - Ano_Nasci
-    Escreva("Minha idade é: ", idade, " anos")
+    Escreva("Minha idade ï¿½: ", idade, " anos")
     
 Fimalgoritmo

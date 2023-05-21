@@ -2,8 +2,8 @@ Algoritmo "triangulos"
 // 
 //  
 // Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 4/27/2023
+// Autor(a)    : Willian Axl N. Pacheco
+// Data atual  : 21/05/2023
 Var
 // Se��o de Declara��es das vari�veis 
     l1, l2, l3: Real

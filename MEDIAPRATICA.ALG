@@ -1,32 +1,32 @@
 Algoritmo "MediaPratica"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 4/27/2023
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
+// Autor(a)    : Willian Axl N. Pacheco
+// Data atual  : 21/05/2023
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
  num1, num2: inteiro
  media, mediaFalsa: real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL ("Digite um número:")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL ("Digite um nï¿½mero:")
    Leia (num1)
-   EscrevaL ("Dite outro número:")
+   EscrevaL ("Dite outro nï¿½mero:")
    Leia (num2)
    media <- (num1 + num2) / 2
    mediaFalsa <- num1 + num2 / 2
-   EscrevaL ("A média entre ", num1, " e", num2, " é: ", media)
-   EscrevaL ("A média entre ", num1, " e", num2, " é: ", mediaFalsa)
+   EscrevaL ("A mï¿½dia entre ", num1, " e", num2, " ï¿½: ", media)
+   EscrevaL ("A mï¿½dia entre ", num1, " e", num2, " ï¿½: ", mediaFalsa)
    
    
    EscrevaL ("----------Exemplo do Gustavo----------")
 
 
     EscrevaL ("Valor Absoluto de: ", abs(10))
-    EscrevaL ("Exponenciação de: ", exp(3,2))
+    EscrevaL ("Exponenciaï¿½ï¿½o de: ", exp(3,2))
     EscrevaL ("Valor inteiro de: ", int(3.9))
     EscrevaL ("Raiz de 25 = ", raizq(25))
     EscrevaL ("Valor de PI ", pi)
