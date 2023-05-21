@@ -1,28 +1,29 @@
 Algoritmo "triangulos"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 4/27/2023
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
     l1, l2, l3: Real
     EQ, ES, tri: Logico
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-    EscrevaL ("Digite o 1° lado do triangulo")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+    EscrevaL ("Digite o 1Â° lado do triangulo")
     Leia (l1)
-    EscrevaL ("Digite o 2° lado do triangulo")
+    EscrevaL ("Digite o 2Â° lado do triangulo")
     Leia (l2)
-    EscrevaL ("Digite o 3° lado do triangulo")
+    EscrevaL ("Digite o 3Â° lado do triangulo")
     Leia (l3)
     tri <- (l1 < (l2 + l3)) e (l2 < (l3 + l1)) e (l3 < (l1 + l2))
     EscrevaL ("Esses dados podem formar um triangulo? ", tri)
     EQ <- (l1 = l2) e (l2 = l3)
     ES <- (l1 <> l2) e (l2 <> l3) e (l1 <> l3)
 
-    EscrevaL ("O triangulo é EQUILATERO? ", EQ)
-    EscrevaL ("O triangulo é ESCALENO? ",ES)
+    EscrevaL ("O triangulo Ã© EQUILATERO? ", EQ)
+    EscrevaL ("O triangulo Ã© ESCALENO? ",ES)
+    
 
 Fimalgoritmo

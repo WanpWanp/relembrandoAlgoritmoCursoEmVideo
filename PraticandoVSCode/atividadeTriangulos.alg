@@ -6,7 +6,7 @@ algoritmo "Triangulos"
 // Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
 var
     l1, l2, l3: Real
-    EQ, ES, tri: Logico
+    EQ, ES, IS, tri: Logico
 
 inicio
 
@@ -18,10 +18,13 @@ inicio
     Leia (l3)
     tri <- (l1 < (l2 + l3)) e (l2 < (l3 + l1)) e (l3 < (l1 + l2))
     EscrevaL ("Esses dados podem formar um triangulo? ", tri)
-    EQ <- (l1 = l2) e (l2 = l3)
-    ES <- (l1 <> l2) e (l2 <> l3) e (l1 <> l3)
-
-    EscrevaL ("O triangulo é EQUILATERO? ", EQ)
-    EscrevaL ("O triangulo é ESCALENO? ",ES)
+        EQ <- (l1 = l2) e (l2 = l3)
+        ES <- (l1 <> l2) e (l2 <> l3) e (l1 <> l3)
+        IS <- (l1 = l2) ou (L2 = l3) ou (l1 = l3)
+    Se (tri = verdadeiro) entao 
+        EscrevaL ("O triangulo é EQUILATERO? ", EQ)
+        EscrevaL ("O triangulo é ESCALENO? ",ES)
+        EscrevaL ("O triangulo é ISÓCELES? ",IS)
+    Fimse
 
 fimalgoritmo

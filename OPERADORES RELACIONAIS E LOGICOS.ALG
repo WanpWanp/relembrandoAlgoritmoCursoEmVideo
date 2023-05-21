@@ -1,4 +1,6 @@
 Algoritmo "Operadores relacionais e Logicos"
+//  
+//  
 // 
 //  
 // Descrição   : Aqui você descreve o que o programa faz! (função)
